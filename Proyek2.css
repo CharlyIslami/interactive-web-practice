@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(160deg, #232526, #414345);
+    color: white;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    max-width: 1200px;
+}
+
+.headerProyek1 h1, 
+.headerProyek1 p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.headerProyek1 h1 {
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.kontenUtama {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    animation: slideUp 1.2s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pilihanMateri,
+.containerInput,
+.hasilLatihan {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    letter-spacing: 1px;
+}
+
+.pilihanMateri select {
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    width: 100%;
+}
+
+.pilihanMateri select option {
+    background: #2c2c2c;
+}
+
+
+
+
+
+
+
+
+
+
