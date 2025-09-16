@@ -82,6 +82,60 @@ body {
     background: #2c2c2c;
 }
 
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-hitung {
+    background: linear-gradient(45deg, #414345, #2c2c2c);
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.btn-hitung:hover {
+    transform: translateY(-2px);
+}
+
+.container-muncul {
+    animation: naik 0.5s ease;
+}
+
+@keyframes naik {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
 
 
 
